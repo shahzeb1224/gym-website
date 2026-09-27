@@ -1,6 +1,6 @@
-# IRONHAUS — The Art of Strength
+# Arnold's Fitness Gym — Askari 6, Peshawar
 
-A complete, single-page **premium fitness brand website**. Dark, cinematic, athletic,
+A complete, single-page **fitness and strength gym website** for Arnold's Fitness Gym in Askari 6, Peshawar. Dark, cinematic, athletic,
 high-performance — built as one cohesive campaign around the brand red `#E10600`.
 
 Pure **static HTML/CSS/JS**. No build step, no framework, no dependencies.
@@ -56,9 +56,7 @@ bands, final CTA) layer the photo over a cinematic gradient via a CSS `--photo` 
 
 ## Make it yours
 
-**Rename the brand:** find-and-replace `IRONHAUS` across `index.html` (and the tagline
-"The Art of Strength"). Update the inline logo mark in `index.html` + `brand/*.svg` if
-desired.
+**Customizing the brand:** update the text and contact info in `index.html`. Update the inline logo mark in `index.html` + `brand/*.svg` if desired.
 
 **Colors:** all tokens live in `:root` at the top of `css/styles.css` — change `--red`,
 the blacks/charcoals, and text grays in one place. Also update `<meta name="theme-color">`

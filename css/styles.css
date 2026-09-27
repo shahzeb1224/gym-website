@@ -1,6 +1,6 @@
 /* =========================================================================
-   IRONHAUS — The Art of Strength
-   Premium performance-gym brand site. Dark / cinematic / athletic.
+   Arnold's Fitness Gym — Askari 6, Peshawar
+   Fitness & strength gym brand site. Dark / cinematic / athletic.
    Vanilla CSS. No build step.
    ---------------------------------------------------------------------------
    Contents:
@@ -123,7 +123,7 @@ input{font:inherit;}
     linear-gradient(155deg,#17171b 0%, #101013 52%, #0a0a0c 100%);
   isolation:isolate;
 }
-.media::before{           /* faint IRONHAUS peak-mark watermark */
+.media::before{           /* faint peak-mark watermark */
   content:""; position:absolute; inset:0; z-index:0;
   background:no-repeat center/40% auto
     url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Cpath d='M15 80 L50 22 L85 80' fill='none' stroke='%23F4F4F5' stroke-width='4.5' stroke-linejoin='round'/%3E%3Cpath d='M34 80 H66' stroke='%23F4F4F5' stroke-width='4.5' stroke-linecap='round'/%3E%3C/svg%3E");

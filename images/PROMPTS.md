@@ -1,4 +1,4 @@
-# IRONHAUS — AI Image Prompt Sheet
+# Arnold's Fitness Gym — AI Image Prompt Sheet
 
 This site is built as a complete **premium fitness brand campaign**. Every visual
 section already references its **final `.webp` file path**. Until those files exist,

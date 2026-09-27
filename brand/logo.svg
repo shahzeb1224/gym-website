@@ -1,10 +1,10 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" width="360" height="72" role="img" aria-label="IRONHAUS — The Art of Strength">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 72" width="360" height="72" role="img" aria-label="Arnold's Fitness Gym">
   <rect width="360" height="72" fill="none"/>
   <!-- Mark -->
   <rect x="8" y="16" width="40" height="40" rx="8" fill="#141416" stroke="#2A2A30" stroke-width="2"/>
   <path d="M17 48 L28 24 L39 48" fill="none" stroke="#E10600" stroke-width="3.4" stroke-linejoin="round" stroke-linecap="round"/>
   <path d="M22.5 48 H33.5" stroke="#F4F4F5" stroke-width="3.4" stroke-linecap="round"/>
-  <!-- Wordmark (uses Anton when available, falls back to a bold condensed sans) -->
-  <text x="66" y="45" font-family="Anton, 'Arial Narrow', Impact, sans-serif" font-size="34" letter-spacing="1.5" fill="#F4F4F5">IRON<tspan fill="#E10600">HAUS</tspan></text>
-  <text x="67" y="61" font-family="Inter, Arial, sans-serif" font-size="9" letter-spacing="3.2" fill="#A1A1AA">THE ART OF STRENGTH</text>
+  <!-- Wordmark -->
+  <text x="66" y="44" font-family="Anton, 'Arial Narrow', Impact, sans-serif" font-size="28" letter-spacing="1" fill="#F4F4F5">ARNOLD'S <tspan fill="#E10600">FITNESS GYM</tspan></text>
+  <text x="67" y="60" font-family="Inter, Arial, sans-serif" font-size="8.5" letter-spacing="2" fill="#A1A1AA">ASKARI 6, PESHAWAR</text>
 </svg>

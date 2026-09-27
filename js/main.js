@@ -1,5 +1,5 @@
 /* =========================================================================
-   IRONHAUS — main.js
+   Arnold's Fitness Gym — main.js
    Vanilla, dependency-free. Progressive enhancement: the page is fully
    functional without JS; this adds nav state, reveals, counters & parallax.
    ========================================================================= */

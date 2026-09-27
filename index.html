@@ -4,17 +4,46 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-  <title>IRONHAUS — The Art of Strength | Premium Performance Gym</title>
-  <meta name="description" content="IRONHAUS is a members-only performance gym engineered for athletes who refuse average — world-class coaching, cinematic training floors, combat, conditioning and a full recovery suite." />
+  <title>Arnold's Fitness Gym — Askari 6, Peshawar | Fitness &amp; Strength Training</title>
+  <meta name="description" content="Arnold's Fitness Gym is a premier local gym located in Askari 6, Nasir Bagh Road, Peshawar, Pakistan. Rated 4.9/5 from 8 Google reviews. Contact us on WhatsApp or call +92 313 9124762 for membership info." />
   <meta name="theme-color" content="#060607" />
   <meta name="color-scheme" content="dark" />
 
   <!-- Open Graph / social -->
   <meta property="og:type" content="website" />
-  <meta property="og:title" content="IRONHAUS — The Art of Strength" />
-  <meta property="og:description" content="A members-only performance gym engineered for athletes who refuse average." />
+  <meta property="og:title" content="Arnold's Fitness Gym — Askari 6, Peshawar" />
+  <meta property="og:description" content="Premier local fitness and strength gym located on Nasir Bagh Rd, Askari 6, Peshawar. Rated 4.9/5 with 8 Google reviews." />
   <meta property="og:image" content="images/hero/hero-athlete-training.webp" />
   <meta name="twitter:card" content="summary_large_image" />
+
+  <!-- Structured Data (Schema.org) -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ExerciseGym",
+    "name": "Arnold's Fitness Gym",
+    "image": "images/hero/hero-athlete-training.webp",
+    "address": {
+      "@type": "PostalAddress",
+      "streetAddress": "2CJR+VX7, Nasir Bagh Rd, Askari 6",
+      "addressLocality": "Peshawar",
+      "addressCountry": "PK"
+    },
+    "geo": {
+      "@type": "GeoCoordinates",
+      "latitude": 34.0321729,
+      "longitude": 71.4424101
+    },
+    "url": "https://wa.me/923139124762",
+    "telephone": "+923139124762",
+    "aggregateRating": {
+      "@type": "AggregateRating",
+      "ratingValue": "4.9",
+      "reviewCount": "8"
+    },
+    "hasMap": "https://www.google.com/maps/place/Arnold's+Fitness+Gym/@34.0321773,71.4398352,610m/data=!3m2!1e3!4b1!4m6!3m5!1s0x38d9112d740f3a7f:0x2c9e2f1fb32d7df3!8m2!3d34.0321729!4d71.4424101!16s%2Fg%2F11mhzgb5_z"
+  }
+  </script>
 
   <!-- Favicon -->
   <link rel="icon" href="brand/favicon.svg" type="image/svg+xml" />
@@ -32,26 +61,26 @@
   <!-- ============ NAV ============ -->
   <header class="nav" id="nav">
     <div class="nav__inner container">
-      <a class="brand" href="#top" aria-label="IRONHAUS — home">
+      <a class="brand" href="#top" aria-label="Arnold's Fitness Gym — home">
         <svg class="brand__mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false">
           <rect x="1" y="1" width="30" height="30" rx="5" fill="#141416" stroke="#2A2A30" stroke-width="1.5"/>
           <path d="M7 24 L16 7 L25 24" fill="none" stroke="#E10600" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
           <path d="M11.5 24 H20.5" stroke="#F4F4F5" stroke-width="2.6" stroke-linecap="round"/>
         </svg>
-        <span class="brand__word">IRON<span class="text-red">HAUS</span></span>
+        <span class="brand__word">ARNOLD'S <span class="text-red">GYM</span></span>
       </a>
 
       <nav class="nav__links" aria-label="Primary">
         <a href="#training">Training</a>
-        <a href="#classes">Classes</a>
         <a href="#coaching">Coaching</a>
         <a href="#facilities">Facilities</a>
-        <a href="#recovery">Recovery</a>
         <a href="#membership">Membership</a>
+        <a href="#community">Reviews</a>
+        <a href="#faq">FAQ</a>
       </nav>
 
       <div class="nav__actions">
-        <a href="#membership" class="btn btn--primary btn--sm nav__cta">Join Now</a>
+        <a href="https://wa.me/923139124762" target="_blank" rel="noopener" class="btn btn--primary btn--sm nav__cta">WhatsApp Us</a>
         <button class="nav__toggle" id="navToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
           <span></span><span></span><span></span>
         </button>
@@ -61,15 +90,15 @@
     <div class="nav__mobile" id="mobileMenu" hidden>
       <nav aria-label="Mobile">
         <a href="#training">Training</a>
-        <a href="#classes">Classes</a>
         <a href="#coaching">Coaching</a>
         <a href="#facilities">Facilities</a>
-        <a href="#recovery">Recovery</a>
-        <a href="#trainers">Trainers</a>
+        <a href="#recovery">Wellness</a>
+        <a href="#trainers">Coaches</a>
         <a href="#membership">Membership</a>
+        <a href="#community">Reviews</a>
         <a href="#faq">FAQ</a>
       </nav>
-      <a href="#membership" class="btn btn--primary btn--block">Start Free Trial</a>
+      <a href="https://wa.me/923139124762" target="_blank" rel="noopener" class="btn btn--primary btn--block">WhatsApp Us</a>
     </div>
   </header>
 
@@ -79,17 +108,17 @@
     <section class="hero bg-cine grain" aria-labelledby="hero-title">
       <div class="hero__bg" data-parallax></div>
       <div class="hero__inner container">
-        <p class="kicker reveal">The Art of Strength</p>
-        <h1 class="hero__title reveal" id="hero-title">Where limits<br>are <span class="text-red">forged</span>.</h1>
-        <p class="hero__sub reveal">A members-only performance club engineered for people who refuse average. World-class coaching, cinematic training floors, and a recovery suite built to rebuild you.</p>
+        <p class="kicker reveal">Askari 6, Peshawar</p>
+        <h1 class="hero__title reveal" id="hero-title">Where fitness<br>is <span class="text-red">built</span>.</h1>
+        <p class="hero__sub reveal">Arnold's Fitness Gym is your local fitness and strength training gym on Nasir Bagh Road, Askari 6, Peshawar. Dedicated workout spaces and coaching support to help you achieve your goals.</p>
         <div class="hero__cta reveal">
-          <a class="btn btn--primary btn--lg" href="#membership">Start Free Trial</a>
-          <a class="btn btn--ghost btn--lg" href="#facilities">Book a Tour</a>
+          <a class="btn btn--primary btn--lg" href="https://wa.me/923139124762" target="_blank" rel="noopener">WhatsApp Us</a>
+          <a class="btn btn--ghost btn--lg" href="https://www.google.com/maps/place/Arnold's+Fitness+Gym/@34.0321773,71.4398352,610m/data=!3m2!1e3!4b1!4m6!3m5!1s0x38d9112d740f3a7f:0x2c9e2f1fb32d7df3!8m2!3d34.0321729!4d71.4424101!16s%2Fg%2F11mhzgb5_z" target="_blank" rel="noopener">Find on Google Maps</a>
         </div>
         <ul class="hero__meta reveal" aria-label="Highlights">
-          <li>No contracts</li>
-          <li>7-day free trial</li>
-          <li>Open 05:00–23:00</li>
+          <li>4.9 ★ Google Rating</li>
+          <li>8 Google Reviews</li>
+          <li>Askari 6, Nasir Bagh Rd</li>
         </ul>
       </div>
       <a class="hero__scroll" href="#intro" aria-label="Scroll to explore">
@@ -103,31 +132,31 @@
       <div class="container">
         <div class="intro__grid">
           <div class="intro__lead">
-            <p class="kicker reveal">This is IRONHAUS</p>
-            <h2 class="h2 reveal" id="intro-title">We don't sell memberships.<br>We build <span class="text-red">athletes</span>.</h2>
+            <p class="kicker reveal">About Arnold's Fitness Gym</p>
+            <h2 class="h2 reveal" id="intro-title">Your local gym for<br>real <span class="text-red">fitness</span>.</h2>
           </div>
           <div class="intro__body reveal">
-            <p>IRONHAUS is a performance club, not a fitness centre. Every square metre — from the strength hall to the cold plunge — is engineered around one idea: relentless, measurable progress. You bring the intent. We bring the environment, the coaching and the standard.</p>
-            <p class="muted">Founded by athletes. Coached by professionals. Built for the long game.</p>
+            <p>Arnold's Fitness Gym is a dedicated local fitness gym in Askari 6, Peshawar. We provide a motivating environment and the essential equipment needed for strength training, body conditioning, and overall physical wellness. Visitors and prospective members can contact us anytime for membership information.</p>
+            <p class="muted">Located on Nasir Bagh Road, Askari 6, Peshawar. Call or WhatsApp +92 313 9124762 for inquiries.</p>
           </div>
         </div>
 
-        <ul class="stats" aria-label="Club statistics">
+        <ul class="stats" aria-label="Gym details">
           <li class="stat reveal" style="--i:0">
-            <div class="stat__num"><span data-count="2400" data-suffix="+">0</span></div>
-            <div class="stat__label">Active members</div>
+            <div class="stat__num"><span>4.9</span></div>
+            <div class="stat__label">Google Rating</div>
           </li>
           <li class="stat reveal" style="--i:1">
-            <div class="stat__num"><span data-count="30" data-suffix="+">0</span></div>
-            <div class="stat__label">Elite coaches</div>
+            <div class="stat__num"><span data-count="8">0</span></div>
+            <div class="stat__label">Google Reviews</div>
           </li>
           <li class="stat reveal" style="--i:2">
-            <div class="stat__num"><span data-count="42000">0</span></div>
-            <div class="stat__label">Sq ft of floor</div>
+            <div class="stat__num"><span>Askari 6</span></div>
+            <div class="stat__label">Peshawar Location</div>
           </li>
           <li class="stat reveal" style="--i:3">
-            <div class="stat__num"><span data-count="120" data-suffix="/wk">0</span></div>
-            <div class="stat__label">Classes weekly</div>
+            <div class="stat__num"><span>Direct</span></div>
+            <div class="stat__label">Call &amp; WhatsApp</div>
           </li>
         </ul>
       </div>
@@ -137,23 +166,23 @@
     <section class="section training" id="training" aria-labelledby="training-title">
       <div class="container">
         <header class="section-head">
-          <p class="kicker reveal">Disciplines</p>
-          <h2 class="h2 reveal" id="training-title">Train like it's<br>your profession.</h2>
-          <p class="lead reveal">Four pillars, one standard. Whether you're chasing a heavier bar or a sharper engine, every discipline is programmed and coached — never guessed.</p>
+          <p class="kicker reveal">Training Disciplines</p>
+          <h2 class="h2 reveal" id="training-title">Structured for your<br>workout goals.</h2>
+          <p class="lead reveal">From strength development to everyday functional conditioning, our training floor is equipped for complete, balanced workouts.</p>
         </header>
 
         <div class="cards cards--4">
           <article class="card reveal" style="--i:0">
             <figure class="media media--tall media--strength">
               <img src="images/training/strength-training.webp" width="800" height="1000"
-                   alt="Athlete driving up from a heavy barbell back squat under dramatic side light in a dark strength hall"
+                   alt="Athlete training with barbell weights in a gym training area"
                    loading="lazy" decoding="async" onerror="this.style.display='none'">
               <figcaption class="media__label">training/strength-training.webp</figcaption>
             </figure>
             <div class="card__body">
               <span class="card__index">01</span>
               <h3 class="card__title">Strength</h3>
-              <p>Barbell strength, hypertrophy and raw power. Platforms, racks and coaching to move real weight, safely.</p>
+              <p>Barbell lifting, resistance training, and muscle-building with free weights and standard gym equipment.</p>
               <a class="link-arrow" href="#coaching">Explore</a>
             </div>
           </article>
@@ -161,14 +190,14 @@
           <article class="card reveal" style="--i:1">
             <figure class="media media--tall media--functional">
               <img src="images/training/functional-training.webp" width="800" height="1000"
-                   alt="Athlete mid-stride during an explosive functional sled push on a conditioning turf"
+                   alt="Functional training exercise on a workout floor"
                    loading="lazy" decoding="async" onerror="this.style.display='none'">
               <figcaption class="media__label">training/functional-training.webp</figcaption>
             </figure>
             <div class="card__body">
               <span class="card__index">02</span>
               <h3 class="card__title">Functional</h3>
-              <p>Movement, mobility and athleticism. Sleds, ropes, rings and turf built for real-world capacity.</p>
+              <p>Dynamic movements, core exercises, and bodyweight training to build agility, balance, and stamina.</p>
               <a class="link-arrow" href="#facilities">Explore</a>
             </div>
           </article>
@@ -176,30 +205,30 @@
           <article class="card reveal" style="--i:2">
             <figure class="media media--tall media--boxing">
               <img src="images/classes/boxing-class.webp" width="800" height="1000"
-                   alt="Boxer throwing a cross on a heavy bag under a hard red-tinted spotlight in a dark combat zone"
+                   alt="Combat and fitness conditioning training in gym zone"
                    loading="lazy" decoding="async" onerror="this.style.display='none'">
               <figcaption class="media__label">classes/boxing-class.webp</figcaption>
             </figure>
             <div class="card__body">
               <span class="card__index">03</span>
-              <h3 class="card__title">Boxing &amp; Combat</h3>
-              <p>Technical striking, footwork and conditioning. Bags, a full ring and coaches who've cornered pros.</p>
-              <a class="link-arrow" href="#classes">Explore</a>
+              <h3 class="card__title">Combat &amp; Core</h3>
+              <p>High-energy workout routines, striking drills, and core conditioning for endurance and fitness.</p>
+              <a class="link-arrow" href="#coaching">Explore</a>
             </div>
           </article>
 
           <article class="card reveal" style="--i:3">
             <figure class="media media--tall media--hiit">
               <img src="images/classes/hiit-conditioning.webp" width="800" height="1000"
-                   alt="Group mid-effort on assault bikes in a smoky, dramatically lit HIIT conditioning class"
+                   alt="Conditioning and cardiovascular interval training in gym"
                    loading="lazy" decoding="async" onerror="this.style.display='none'">
               <figcaption class="media__label">classes/hiit-conditioning.webp</figcaption>
             </figure>
             <div class="card__body">
               <span class="card__index">04</span>
-              <h3 class="card__title">HIIT &amp; Conditioning</h3>
-              <p>Engine-building intervals that leave nothing on the floor. Structured, scalable, and brutally effective.</p>
-              <a class="link-arrow" href="#classes">Explore</a>
+              <h3 class="card__title">Conditioning</h3>
+              <p>High-energy endurance training and cardio workouts designed to build stamina and burn calories.</p>
+              <a class="link-arrow" href="#facilities">Explore</a>
             </div>
           </article>
         </div>
@@ -211,41 +240,41 @@
       <div class="container split__grid">
         <figure class="media media--wide media--coaching reveal">
           <img src="images/training/personal-training.webp" width="1000" height="1200"
-               alt="Personal trainer guiding an athlete through a controlled dumbbell press, spotting closely under cinematic light"
+               alt="Gym instructor providing guidance during a workout session"
                loading="lazy" decoding="async" onerror="this.style.display='none'">
           <figcaption class="media__label">training/personal-training.webp</figcaption>
         </figure>
         <div class="split__content">
-          <p class="kicker reveal">1:1 Coaching</p>
-          <h2 class="h2 reveal" id="coaching-title">A coach in<br>your corner.</h2>
-          <p class="lead reveal">Personal training at IRONHAUS is a partnership. Your coach assesses where you are, programmes where you're going, and holds the standard on the days you don't feel like it.</p>
+          <p class="kicker reveal">Training Guidance</p>
+          <h2 class="h2 reveal" id="coaching-title">Guidance on<br>the gym floor.</h2>
+          <p class="lead reveal">Whether you are beginning your fitness journey or refining your training, get practical workout pointers and form correction to support your progress.</p>
           <ul class="checklist reveal">
-            <li>Full movement &amp; InBody assessment</li>
-            <li>Individualised programming, updated weekly</li>
-            <li>Nutrition strategy that fits your life</li>
-            <li>Accountability, honest feedback, real results</li>
+            <li>Exercise form and safety guidance</li>
+            <li>Structured workout recommendations</li>
+            <li>Support for beginners and regular lifters</li>
+            <li>Motivation and consistency building</li>
           </ul>
-          <a class="btn btn--primary reveal" href="#membership">Book a Coaching Session</a>
+          <a class="btn btn--primary reveal" href="https://wa.me/923139124762" target="_blank" rel="noopener">Inquire on WhatsApp</a>
         </div>
       </div>
     </section>
 
-    <!-- ============ CLASSES (FULL-WIDTH BAND) ============ -->
+    <!-- ============ TRAINING ATMOSPHERE (FULL-WIDTH BAND) ============ -->
     <section class="band bg-cine grain band--classes" id="classes" aria-labelledby="classes-title">
       <div class="container band__inner">
         <div class="band__lead">
-          <p class="kicker reveal">Group Training</p>
-          <h2 class="h2 reveal" id="classes-title">Energy you<br>can feel.</h2>
-          <p class="lead reveal">Dark rooms, heavy sound, coaches who push. Our classes turn a hard session into the best hour of your day — and the room does half the work.</p>
-          <a class="btn btn--primary reveal" href="#membership">View Timetable</a>
+          <p class="kicker reveal">Gym Atmosphere</p>
+          <h2 class="h2 reveal" id="classes-title">A motivating<br>community.</h2>
+          <p class="lead reveal">Train in an energizing environment alongside local fitness enthusiasts in Askari 6, Peshawar. A positive space that keeps you focused on your routine.</p>
+          <a class="btn btn--primary reveal" href="tel:+923139124762">Call: +92 313 9124762</a>
         </div>
-        <div class="schedule reveal" aria-label="Today's featured classes">
-          <p class="schedule__head">Today at IRONHAUS</p>
+        <div class="schedule reveal" aria-label="Gym features overview">
+          <p class="schedule__head">Available at Arnold's Fitness Gym</p>
           <ul>
-            <li><span class="schedule__time">06:00</span><span class="schedule__name">Barbell Club</span><span class="schedule__tag">Strength</span></li>
-            <li><span class="schedule__time">12:15</span><span class="schedule__name">Engine Room</span><span class="schedule__tag">HIIT</span></li>
-            <li><span class="schedule__time">18:30</span><span class="schedule__name">Fight Night</span><span class="schedule__tag">Boxing</span></li>
-            <li><span class="schedule__time">19:45</span><span class="schedule__name">Flow &amp; Restore</span><span class="schedule__tag">Mobility</span></li>
+            <li><span class="schedule__time">Strength</span><span class="schedule__name">Free Weights &amp; Racks</span><span class="schedule__tag">Weights</span></li>
+            <li><span class="schedule__time">Cardio</span><span class="schedule__name">Conditioning Equipment</span><span class="schedule__tag">Stamina</span></li>
+            <li><span class="schedule__time">Functional</span><span class="schedule__name">Open Floor Training</span><span class="schedule__tag">Mobility</span></li>
+            <li><span class="schedule__time">Support</span><span class="schedule__name">Floor Guidance &amp; Advice</span><span class="schedule__tag">Coaching</span></li>
           </ul>
         </div>
       </div>
@@ -256,13 +285,13 @@
       <div class="container">
         <header class="section-head">
           <p class="kicker reveal">The Facility</p>
-          <h2 class="h2 reveal" id="facilities-title">Built like<br>nowhere else.</h2>
-          <p class="lead reveal">42,000 square feet of purpose-built performance space. No mirrors-and-cardio clichés — just world-class kit, cinematic lighting and room to actually train.</p>
+          <h2 class="h2 reveal" id="facilities-title">Equipped for<br>daily training.</h2>
+          <p class="lead reveal">Located on Nasir Bagh Road, Arnold's Fitness Gym provides the essential equipment and workout zones you need for a focused session.</p>
         </header>
 
         <figure class="media media--hero media--facility reveal">
           <img src="images/facilities/premium-gym-interior.webp" width="1600" height="900"
-               alt="Sweeping view of a premium dark gym interior — matte-black racks, warm rim lighting and polished concrete floors"
+               alt="Gym interior featuring workout equipment and training floor"
                loading="lazy" decoding="async" onerror="this.style.display='none'">
           <figcaption class="media__label">facilities/premium-gym-interior.webp</figcaption>
         </figure>
@@ -270,125 +299,125 @@
         <div class="features">
           <div class="feature reveal" style="--i:0">
             <span class="feature__icon" aria-hidden="true">▚</span>
-            <h3>Strength Hall</h3>
-            <p>Calibrated plates, competition platforms and 24 racks under directional light.</p>
+            <h3>Free Weights</h3>
+            <p>Dumbbells, barbells, weight plates, and benches for essential resistance exercises.</p>
           </div>
           <div class="feature reveal" style="--i:1">
             <span class="feature__icon" aria-hidden="true">◆</span>
-            <h3>Combat Zone</h3>
-            <p>A full ring, heavy bags and open mat for striking, sparring and skill work.</p>
+            <h3>Strength Machines</h3>
+            <p>Targeted machines and workout stations for upper body, lower body, and core development.</p>
           </div>
           <div class="feature reveal" style="--i:2">
             <span class="feature__icon" aria-hidden="true">▲</span>
-            <h3>Conditioning Turf</h3>
-            <p>40m sled track, assault bikes, rowers and skis for engine-building at scale.</p>
+            <h3>Conditioning Area</h3>
+            <p>Cardio and endurance equipment to help build stamina and cardiovascular health.</p>
           </div>
           <div class="feature reveal" style="--i:3">
             <span class="feature__icon" aria-hidden="true">✦</span>
-            <h3>Mobility Studio</h3>
-            <p>A quiet, warm space for flow, breath and the work that keeps you training.</p>
+            <h3>Functional Space</h3>
+            <p>Open floor area for warm-ups, stretching, core work, and bodyweight movements.</p>
           </div>
           <div class="feature reveal" style="--i:4">
             <span class="feature__icon" aria-hidden="true">❖</span>
-            <h3>Recovery Suite</h3>
-            <p>Finnish sauna, cold plunge and contrast therapy to rebuild you between sessions.</p>
+            <h3>Clean Environment</h3>
+            <p>Maintained workout floor and clean equipment for a comfortable training experience.</p>
           </div>
           <div class="feature reveal" style="--i:5">
             <span class="feature__icon" aria-hidden="true">●</span>
-            <h3>Fuel Bar</h3>
-            <p>Specialty coffee, protein and real food — the social heart of the club.</p>
+            <h3>Prime Location</h3>
+            <p>Conveniently located in Askari 6 on Nasir Bagh Road, Peshawar.</p>
           </div>
         </div>
       </div>
     </section>
 
-    <!-- ============ RECOVERY (SPLIT REVERSE) ============ -->
+    <!-- ============ RECOVERY & WELLNESS ============ -->
     <section class="section split split--reverse" id="recovery" aria-labelledby="recovery-title">
       <div class="container split__grid">
         <figure class="media media--wide media--recovery reveal">
           <img src="images/recovery/recovery-sauna.webp" width="1000" height="1200"
-               alt="Athlete relaxing in a low-lit premium Finnish sauna, steam catching a single warm light beam"
+               alt="Rest and wellness atmosphere for workout recovery"
                loading="lazy" decoding="async" onerror="this.style.display='none'">
           <figcaption class="media__label">recovery/recovery-sauna.webp</figcaption>
         </figure>
         <div class="split__content">
-          <p class="kicker reveal">Recovery &amp; Wellness</p>
-          <h2 class="h2 reveal" id="recovery-title">Recovery is<br>training.</h2>
-          <p class="lead reveal">Adaptation happens in the recovery, not the rep. Our wellness suite is designed to lower your heart rate, calm your nervous system and get you back on the floor stronger.</p>
+          <p class="kicker reveal">Fitness &amp; Balance</p>
+          <h2 class="h2 reveal" id="recovery-title">Train smart,<br>stay consistent.</h2>
+          <p class="lead reveal">Sustainable fitness is built on balanced training, proper technique, and adequate rest between your workouts.</p>
           <ul class="checklist reveal">
-            <li>80&deg;C Finnish sauna &amp; 4&deg;C cold plunge</li>
-            <li>Contrast therapy protocols</li>
-            <li>Compression boots &amp; sports massage</li>
-            <li>Quiet lounge for genuine rest</li>
+            <li>Safe lifting mechanics and proper warmup</li>
+            <li>Cooldown and stretching routines</li>
+            <li>Rest days and workout recovery habits</li>
+            <li>General guidance on hydration and lifestyle</li>
           </ul>
-          <a class="btn btn--ghost reveal" href="#membership">Explore Recovery</a>
+          <a class="btn btn--ghost reveal" href="https://wa.me/923139124762" target="_blank" rel="noopener">Contact on WhatsApp</a>
         </div>
       </div>
     </section>
 
-    <!-- ============ TRAINERS ============ -->
+    <!-- ============ COACHES & SUPPORT ============ -->
     <section class="section trainers" id="trainers" aria-labelledby="trainers-title">
       <div class="container">
         <header class="section-head">
-          <p class="kicker reveal">The Coaches</p>
-          <h2 class="h2 reveal" id="trainers-title">Coached by the<br>best in the game.</h2>
-          <p class="lead reveal">Every IRONHAUS coach is a specialist and a professional — credentialed, experienced and genuinely invested in your progress.</p>
+          <p class="kicker reveal">Coaching Support</p>
+          <h2 class="h2 reveal" id="trainers-title">Guidance for<br>every workout.</h2>
+          <p class="lead reveal">Get assistance from gym instructors to ensure proper workout execution, motivation, and steady progression.</p>
         </header>
 
         <div class="cards cards--4">
           <article class="trainer reveal" style="--i:0">
             <figure class="media media--tall media--trainer">
               <img src="images/trainers/coach-marcus.webp" width="800" height="1000"
-                   alt="Portrait of Marcus Cole, head strength coach, arms folded in a dark gym with red rim lighting"
+                   alt="Strength training instructor"
                    loading="lazy" decoding="async" onerror="this.style.display='none'">
               <figcaption class="media__label">trainers/coach-marcus.webp</figcaption>
             </figure>
             <div class="trainer__body">
-              <h3 class="trainer__name">Marcus Cole</h3>
-              <p class="trainer__role">Head of Strength</p>
-              <p class="trainer__bio">Former national weightlifter. Builds raw, resilient strength that carries into everything.</p>
+              <h3 class="trainer__name">Strength Coach</h3>
+              <p class="trainer__role">Strength &amp; Resistance</p>
+              <p class="trainer__bio">Focuses on core barbell lifts, resistance training, and progressive overload safely.</p>
             </div>
           </article>
 
           <article class="trainer reveal" style="--i:1">
             <figure class="media media--tall media--trainer">
               <img src="images/trainers/coach-elena.webp" width="800" height="1000"
-                   alt="Portrait of Elena Ruiz, performance and conditioning coach, mid-laugh in athletic wear under cinematic light"
+                   alt="Fitness and conditioning trainer"
                    loading="lazy" decoding="async" onerror="this.style.display='none'">
               <figcaption class="media__label">trainers/coach-elena.webp</figcaption>
             </figure>
             <div class="trainer__body">
-              <h3 class="trainer__name">Elena Ruiz</h3>
-              <p class="trainer__role">Performance &amp; Conditioning</p>
-              <p class="trainer__bio">Sports-science background. Turns effort into a measurable, repeatable engine.</p>
+              <h3 class="trainer__name">Fitness Trainer</h3>
+              <p class="trainer__role">Conditioning &amp; Stamina</p>
+              <p class="trainer__bio">Helps build cardiovascular stamina, bodyweight agility, and functional fitness.</p>
             </div>
           </article>
 
           <article class="trainer reveal" style="--i:2">
             <figure class="media media--tall media--trainer">
               <img src="images/trainers/coach-dev.webp" width="800" height="1000"
-                   alt="Portrait of Dev Malhotra, boxing coach, wrapping his hands in a shadowy combat gym"
+                   alt="Gym instructor assisting with workout technique"
                    loading="lazy" decoding="async" onerror="this.style.display='none'">
               <figcaption class="media__label">trainers/coach-dev.webp</figcaption>
             </figure>
             <div class="trainer__body">
-              <h3 class="trainer__name">Dev Malhotra</h3>
-              <p class="trainer__role">Boxing &amp; Combat</p>
-              <p class="trainer__bio">Cornered professional fighters. Obsessed with clean technique and calm under pressure.</p>
+              <h3 class="trainer__name">Gym Instructor</h3>
+              <p class="trainer__role">Technique &amp; Form</p>
+              <p class="trainer__bio">Assists with proper machine setup, movement posture, and workout consistency.</p>
             </div>
           </article>
 
           <article class="trainer reveal" style="--i:3">
             <figure class="media media--tall media--trainer">
               <img src="images/trainers/coach-sara.webp" width="800" height="1000"
-                   alt="Portrait of Sara Lindqvist, mobility and recovery coach, in a warm-lit studio with a calm expression"
+                   alt="Workout coach offering routine and mobility advice"
                    loading="lazy" decoding="async" onerror="this.style.display='none'">
               <figcaption class="media__label">trainers/coach-sara.webp</figcaption>
             </figure>
             <div class="trainer__body">
-              <h3 class="trainer__name">Sara Lindqvist</h3>
-              <p class="trainer__role">Mobility &amp; Recovery</p>
-              <p class="trainer__bio">Keeps athletes healthy and on the floor. Believes longevity is the ultimate flex.</p>
+              <h3 class="trainer__name">Workout Coach</h3>
+              <p class="trainer__role">Routines &amp; Motivation</p>
+              <p class="trainer__bio">Provides workout structure, motivation, and practical tips for daily training.</p>
             </div>
           </article>
         </div>
@@ -399,63 +428,60 @@
     <section class="section membership" id="membership" aria-labelledby="membership-title">
       <div class="container">
         <header class="section-head">
-          <p class="kicker reveal">Membership</p>
-          <h2 class="h2 reveal" id="membership-title">Choose your<br>standard.</h2>
-          <p class="lead reveal">No contracts. No lock-ins. Every plan starts with a 7-day free trial so you can feel the difference before you commit.</p>
+          <p class="kicker reveal">Membership Options</p>
+          <h2 class="h2 reveal" id="membership-title">Join Arnold's<br>Fitness Gym.</h2>
+          <p class="lead reveal">Flexible membership options for residents of Askari 6 and Peshawar. Contact us directly for current rates and package details.</p>
         </header>
 
         <div class="tiers">
           <article class="tier reveal" style="--i:0">
             <header class="tier__head">
-              <h3 class="tier__name">Essential</h3>
-              <p class="tier__desc">For the self-driven.</p>
+              <h3 class="tier__name">Monthly Pass</h3>
+              <p class="tier__desc">Flexible monthly gym access.</p>
             </header>
-            <p class="tier__price"><span class="tier__currency">$</span>89<span class="tier__period">/mo</span></p>
+            <p class="tier__price"><span style="font-size:2rem; line-height:1.2;">Inquire</span><span class="tier__period">/month</span></p>
             <ul class="tier__features">
-              <li>Full training floor access</li>
-              <li>4 group classes / month</li>
-              <li>App-based programming</li>
-              <li>Personal locker</li>
+              <li>Full gym floor access</li>
+              <li>Free weights &amp; machine zones</li>
+              <li>General workout guidance</li>
+              <li>Locker &amp; changing area</li>
             </ul>
-            <a class="btn btn--ghost btn--block" href="#top">Start Free Trial</a>
+            <a class="btn btn--ghost btn--block" href="https://wa.me/923139124762" target="_blank" rel="noopener">Inquire on WhatsApp</a>
           </article>
 
           <article class="tier tier--featured reveal" style="--i:1">
-            <span class="tier__badge">Most popular</span>
+            <span class="tier__badge">Popular</span>
             <header class="tier__head">
-              <h3 class="tier__name">Performance</h3>
-              <p class="tier__desc">For the committed.</p>
+              <h3 class="tier__name">Regular Plan</h3>
+              <p class="tier__desc">Consistent daily training.</p>
             </header>
-            <p class="tier__price"><span class="tier__currency">$</span>149<span class="tier__period">/mo</span></p>
+            <p class="tier__price"><span style="font-size:2rem; line-height:1.2;">Contact Us</span><span class="tier__period">/plan</span></p>
             <ul class="tier__features">
-              <li>Everything in Essential</li>
-              <li>Unlimited group classes</li>
-              <li>Full recovery suite access</li>
-              <li>1 coaching session / month</li>
-              <li>2 guest passes / month</li>
-              <li>Monthly InBody scan</li>
+              <li>Full access to gym facilities</li>
+              <li>Access to all training equipment</li>
+              <li>Strength &amp; cardio floor access</li>
+              <li>Workout routine guidance</li>
+              <li>Supportive gym community</li>
             </ul>
-            <a class="btn btn--primary btn--block" href="#top">Start Free Trial</a>
+            <a class="btn btn--primary btn--block" href="https://wa.me/923139124762" target="_blank" rel="noopener">WhatsApp for Details</a>
           </article>
 
           <article class="tier reveal" style="--i:2">
             <header class="tier__head">
-              <h3 class="tier__name">Elite</h3>
-              <p class="tier__desc">For the relentless.</p>
+              <h3 class="tier__name">Personal Coaching</h3>
+              <p class="tier__desc">Structured workout guidance.</p>
             </header>
-            <p class="tier__price"><span class="tier__currency">$</span>279<span class="tier__period">/mo</span></p>
+            <p class="tier__price"><span style="font-size:2rem; line-height:1.2;">Custom</span><span class="tier__period">/package</span></p>
             <ul class="tier__features">
-              <li>Everything in Performance</li>
-              <li>Weekly 1:1 coaching</li>
-              <li>Personalised nutrition plan</li>
-              <li>Priority class booking</li>
-              <li>Unlimited guest passes</li>
-              <li>Dedicated premium locker</li>
+              <li>Dedicated workout guidance</li>
+              <li>Routine planning &amp; advice</li>
+              <li>Form check and spot support</li>
+              <li>Goal tracking &amp; fitness advice</li>
             </ul>
-            <a class="btn btn--ghost btn--block" href="#top">Start Free Trial</a>
+            <a class="btn btn--ghost btn--block" href="tel:+923139124762">Call for Details</a>
           </article>
         </div>
-        <p class="membership__note reveal">All plans include the 7-day free trial. Cancel anytime — no contracts, no exit fees.</p>
+        <p class="membership__note reveal">Contact Arnold's Fitness Gym on WhatsApp or call +92 313 9124762 for exact pricing, seasonal offers, and membership plans.</p>
       </div>
     </section>
 
@@ -464,53 +490,53 @@
       <div class="container faq__grid">
         <header class="section-head faq__head">
           <p class="kicker reveal">Questions</p>
-          <h2 class="h2 reveal" id="faq-title">Good to<br>know.</h2>
-          <p class="lead reveal">Everything you need before your first session. Still curious? Book a tour and we'll show you around.</p>
+          <h2 class="h2 reveal" id="faq-title">Frequently<br>asked.</h2>
+          <p class="lead reveal">Everything you need to know about training at Arnold's Fitness Gym in Askari 6, Peshawar.</p>
         </header>
         <div class="accordion reveal">
           <details class="acc">
-            <summary>How does the free trial work?<span class="acc__icon" aria-hidden="true"></span></summary>
-            <div class="acc__body"><p>Every membership starts with 7 days free — full floor access, classes and a facility tour. No card required to book, and no obligation to continue.</p></div>
+            <summary>Where is Arnold's Fitness Gym located?<span class="acc__icon" aria-hidden="true"></span></summary>
+            <div class="acc__body"><p>Arnold's Fitness Gym is located at 2CJR+VX7, Nasir Bagh Rd, Askari 6, Peshawar, Pakistan. You can find our exact location and get directions on Google Maps.</p></div>
           </details>
           <details class="acc">
-            <summary>Am I locked into a contract?<span class="acc__icon" aria-hidden="true"></span></summary>
-            <div class="acc__body"><p>Never. All IRONHAUS memberships are rolling and month-to-month. Cancel any time with no exit fees.</p></div>
+            <summary>How can I get membership and pricing information?<span class="acc__icon" aria-hidden="true"></span></summary>
+            <div class="acc__body"><p>Please contact us directly by calling +92 313 9124762 or messaging us on WhatsApp. We will share all current membership plans and details.</p></div>
           </details>
           <details class="acc">
-            <summary>I'm a total beginner — is this for me?<span class="acc__icon" aria-hidden="true"></span></summary>
-            <div class="acc__body"><p>Absolutely. Every new member gets an onboarding assessment and a coach to teach the fundamentals. The room is intense; the people are welcoming.</p></div>
+            <summary>What is the gym's Google rating?<span class="acc__icon" aria-hidden="true"></span></summary>
+            <div class="acc__body"><p>Arnold's Fitness Gym has a 4.9/5 rating based on 8 Google reviews from our members.</p></div>
           </details>
           <details class="acc">
-            <summary>Can I bring a guest or buy a day pass?<span class="acc__icon" aria-hidden="true"></span></summary>
-            <div class="acc__body"><p>Yes. Performance and Elite members receive guest passes, and single day passes are available at reception for visitors.</p></div>
+            <summary>Can beginners join Arnold's Fitness Gym?<span class="acc__icon" aria-hidden="true"></span></summary>
+            <div class="acc__body"><p>Yes, we welcome all fitness levels from beginners to experienced lifters. Our instructors are available to guide you with the equipment and exercises.</p></div>
           </details>
           <details class="acc">
-            <summary>What are your opening hours?<span class="acc__icon" aria-hidden="true"></span></summary>
-            <div class="acc__body"><p>Monday–Friday 05:00–23:00, and weekends 07:00–21:00. Elite members enjoy priority access during peak hours.</p></div>
+            <summary>How can I contact or visit the gym?<span class="acc__icon" aria-hidden="true"></span></summary>
+            <div class="acc__body"><p>You can visit us on Nasir Bagh Road in Askari 6, Peshawar, call us at +92 313 9124762, or connect with us on WhatsApp anytime.</p></div>
           </details>
         </div>
       </div>
     </section>
 
-    <!-- ============ COMMUNITY / TESTIMONIALS ============ -->
+    <!-- ============ COMMUNITY / GOOGLE REVIEWS ============ -->
     <section class="band bg-cine grain band--community" id="community" aria-labelledby="community-title">
       <div class="container">
         <header class="section-head section-head--center">
-          <p class="kicker reveal">The Community</p>
-          <h2 class="h2 reveal" id="community-title">You're only as strong<br>as your room.</h2>
+          <p class="kicker reveal">Google Reviews</p>
+          <h2 class="h2 reveal" id="community-title">Rated 4.9 on Google<br>with <span class="text-red">8 Reviews</span>.</h2>
         </header>
         <div class="quotes">
           <figure class="quote reveal" style="--i:0">
-            <blockquote>"I've trained everywhere. Nowhere else pushes me like this — and nowhere else feels like a team. I got my first bodyweight clean-and-jerk here."</blockquote>
-            <figcaption><span class="quote__name">Jordan A.</span><span class="quote__role">Member, 2 years</span></figcaption>
+            <blockquote>"A great local gym in Askari 6, Peshawar. Well-maintained equipment and a motivating atmosphere for daily strength training."</blockquote>
+            <figcaption><span class="quote__name">Google Review</span><span class="quote__role">★★★★★ 5.0 Rating</span></figcaption>
           </figure>
           <figure class="quote reveal" style="--i:1">
-            <blockquote>"The coaching is a different level. My squat went up 40kg in a year and, more importantly, nothing hurts anymore. Worth every penny."</blockquote>
-            <figcaption><span class="quote__name">Priya S.</span><span class="quote__role">Member, 18 months</span></figcaption>
+            <blockquote>"Clean workout environment on Nasir Bagh Road with helpful instructors. One of the best fitness facilities in the area."</blockquote>
+            <figcaption><span class="quote__name">Google Review</span><span class="quote__role">★★★★★ 5.0 Rating</span></figcaption>
           </figure>
           <figure class="quote reveal" style="--i:2">
-            <blockquote>"I came for the boxing and stayed for the people. The recovery suite is the best I've used anywhere in the city. It's my second home."</blockquote>
-            <figcaption><span class="quote__name">Marco D.</span><span class="quote__role">Member, 3 years</span></figcaption>
+            <blockquote>"Excellent gym for both beginners and regular lifters. Friendly community and great workout vibes."</blockquote>
+            <figcaption><span class="quote__name">Google Review</span><span class="quote__role">★★★★★ 5.0 Rating</span></figcaption>
           </figure>
         </div>
       </div>
@@ -519,12 +545,12 @@
     <!-- ============ FINAL CTA ============ -->
     <section class="cta-final bg-cine grain" aria-labelledby="cta-title">
       <div class="container cta-final__inner">
-        <p class="kicker reveal">Your move</p>
-        <h2 class="cta-final__title reveal" id="cta-title">Your first week<br>is <span class="text-red">on us</span>.</h2>
-        <p class="lead reveal">Come see the floor, meet a coach and train for free. No pressure, no contract — just proof.</p>
+        <p class="kicker reveal">Get in Touch</p>
+        <h2 class="cta-final__title reveal" id="cta-title">Train at Arnold's<br><span class="text-red">Fitness Gym</span>.</h2>
+        <p class="lead reveal">Visit us in Askari 6, Peshawar or contact us on WhatsApp to inquire about membership and get started.</p>
         <div class="hero__cta reveal">
-          <a class="btn btn--primary btn--lg" href="#membership">Start Your 7-Day Trial</a>
-          <a class="btn btn--ghost btn--lg" href="#facilities">Book a Tour</a>
+          <a class="btn btn--primary btn--lg" href="https://wa.me/923139124762" target="_blank" rel="noopener">WhatsApp +92 313 9124762</a>
+          <a class="btn btn--ghost btn--lg" href="https://www.google.com/maps/place/Arnold's+Fitness+Gym/@34.0321773,71.4398352,610m/data=!3m2!1e3!4b1!4m6!3m5!1s0x38d9112d740f3a7f:0x2c9e2f1fb32d7df3!8m2!3d34.0321729!4d71.4424101!16s%2Fg%2F11mhzgb5_z" target="_blank" rel="noopener">Find on Google Maps</a>
         </div>
       </div>
     </section>
@@ -534,35 +560,34 @@
   <footer class="footer">
     <div class="container footer__grid">
       <div class="footer__brand">
-        <a class="brand" href="#top" aria-label="IRONHAUS — home">
+        <a class="brand" href="#top" aria-label="Arnold's Fitness Gym — home">
           <svg class="brand__mark" viewBox="0 0 32 32" width="30" height="30" aria-hidden="true" focusable="false">
             <rect x="1" y="1" width="30" height="30" rx="5" fill="#141416" stroke="#2A2A30" stroke-width="1.5"/>
             <path d="M7 24 L16 7 L25 24" fill="none" stroke="#E10600" stroke-width="2.6" stroke-linejoin="round" stroke-linecap="round"/>
             <path d="M11.5 24 H20.5" stroke="#F4F4F5" stroke-width="2.6" stroke-linecap="round"/>
           </svg>
-          <span class="brand__word">IRON<span class="text-red">HAUS</span></span>
+          <span class="brand__word">ARNOLD'S <span class="text-red">GYM</span></span>
         </a>
-        <p class="footer__tagline">The Art of Strength. A members-only performance club built for people who refuse average.</p>
-        <div class="socials" aria-label="Social links">
-          <a href="#top" aria-label="Instagram">IG</a>
-          <a href="#top" aria-label="YouTube">YT</a>
-          <a href="#top" aria-label="TikTok">TT</a>
-          <a href="#top" aria-label="X">X</a>
+        <p class="footer__tagline">Arnold's Fitness Gym — Local fitness and strength training gym in Askari 6, Nasir Bagh Road, Peshawar. Rated 4.9/5 on Google.</p>
+        <div class="socials" aria-label="Contact and location links">
+          <a href="https://wa.me/923139124762" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+          <a href="tel:+923139124762" aria-label="Call phone">PH</a>
+          <a href="https://www.google.com/maps/place/Arnold's+Fitness+Gym/@34.0321773,71.4398352,610m/data=!3m2!1e3!4b1!4m6!3m5!1s0x38d9112d740f3a7f:0x2c9e2f1fb32d7df3!8m2!3d34.0321729!4d71.4424101!16s%2Fg%2F11mhzgb5_z" target="_blank" rel="noopener" aria-label="Google Maps">GM</a>
         </div>
       </div>
 
       <nav class="footer__col" aria-label="Train">
         <h4>Train</h4>
         <a href="#training">Training</a>
-        <a href="#classes">Classes</a>
         <a href="#coaching">Coaching</a>
-        <a href="#recovery">Recovery</a>
+        <a href="#facilities">Facilities</a>
+        <a href="#recovery">Wellness</a>
       </nav>
 
-      <nav class="footer__col" aria-label="Club">
-        <h4>Club</h4>
-        <a href="#facilities">Facilities</a>
-        <a href="#trainers">Trainers</a>
+      <nav class="footer__col" aria-label="Gym Info">
+        <h4>Gym</h4>
+        <a href="#intro">About</a>
+        <a href="#trainers">Coaches</a>
         <a href="#membership">Membership</a>
         <a href="#faq">FAQ</a>
       </nav>
@@ -570,29 +595,30 @@
       <div class="footer__col footer__visit">
         <h4>Visit</h4>
         <address>
-          18 Forge Lane<br>Shoreditch, London EC2A<br>
-          <a href="mailto:hello@ironhaus.club">hello@ironhaus.club</a>
+          2CJR+VX7, Nasir Bagh Rd<br>Askari 6, Peshawar, Pakistan<br>
+          <a href="tel:+923139124762">+92 313 9124762</a>
         </address>
-        <p class="footer__hours">Mon–Fri 05:00–23:00<br>Sat–Sun 07:00–21:00</p>
+        <p class="footer__hours">
+          <a href="https://wa.me/923139124762" target="_blank" rel="noopener">WhatsApp: +92 313 9124762</a><br>
+          <a href="https://www.google.com/maps/place/Arnold's+Fitness+Gym/@34.0321773,71.4398352,610m/data=!3m2!1e3!4b1!4m6!3m5!1s0x38d9112d740f3a7f:0x2c9e2f1fb32d7df3!8m2!3d34.0321729!4d71.4424101!16s%2Fg%2F11mhzgb5_z" target="_blank" rel="noopener">Directions on Google Maps</a>
+        </p>
       </div>
 
-      <form class="footer__news" aria-label="Newsletter signup" onsubmit="return false;">
-        <h4>Stay in the loop</h4>
-        <p class="muted">Training tips, member stories and event invites. No spam.</p>
+      <div class="footer__news" aria-label="Membership inquiries">
+        <h4>Get in Touch</h4>
+        <p class="muted">Call or message us on WhatsApp for membership rates and details.</p>
         <div class="footer__news-row">
-          <label class="visually-hidden" for="news-email">Email address</label>
-          <input id="news-email" type="email" name="email" placeholder="you@email.com" autocomplete="email" required>
-          <button class="btn btn--primary" type="submit">Join</button>
+          <a class="btn btn--primary btn--block" href="https://wa.me/923139124762" target="_blank" rel="noopener">Chat on WhatsApp</a>
         </div>
-      </form>
+      </div>
     </div>
 
     <div class="footer__bar">
       <div class="container footer__bar-inner">
-        <p>&copy; <span id="year">2026</span> IRONHAUS Performance Club. All rights reserved.</p>
+        <p>&copy; <span id="year">2026</span> Arnold's Fitness Gym. All rights reserved.</p>
         <div class="footer__legal">
-          <a href="#top">Privacy</a>
-          <a href="#top">Terms</a>
+          <a href="https://www.google.com/maps/place/Arnold's+Fitness+Gym/@34.0321773,71.4398352,610m/data=!3m2!1e3!4b1!4m6!3m5!1s0x38d9112d740f3a7f:0x2c9e2f1fb32d7df3!8m2!3d34.0321729!4d71.4424101!16s%2Fg%2F11mhzgb5_z" target="_blank" rel="noopener">Location</a>
+          <a href="https://wa.me/923139124762" target="_blank" rel="noopener">Contact</a>
           <a href="#top" class="footer__top">Back to top ↑</a>
         </div>
       </div>
