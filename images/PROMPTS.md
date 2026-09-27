@@ -44,10 +44,10 @@ so they read as one brand campaign.
 | 10 | `images/facilities/equipment-detail.webp` | Detail accent (available) | **1:1** | Architectural close-up of premium matte-black dumbbells racked in order, subtle red accent stripe, dramatic raking light, deep shadow. |
 | 11 | `images/recovery/recovery-sauna.webp` | Recovery split (subject toward one side) | **5:6** | Athlete relaxing in a low-lit premium Finnish sauna, warm wood, steam catching a single light beam; serene high-end spa aesthetic. |
 | 12 | `images/recovery/cold-plunge.webp` | Recovery accent (available) | **4:5** | Athlete stepping into a modern cold-plunge in a dark sophisticated recovery room; cool blue tones with a subtle red environmental accent, cinematic reflection. |
-| 13 | `images/trainers/coach-marcus.webp` | Trainer portrait | **4:5** | Editorial portrait, ~40s male head strength coach, arms folded, confident; dark gym backdrop, red rim light, shallow DOF. |
-| 14 | `images/trainers/coach-elena.webp` | Trainer portrait | **4:5** | Editorial portrait, female performance coach, athletic, mid-laugh, athletic wear; cinematic side light, dark background. |
-| 15 | `images/trainers/coach-dev.webp` | Trainer portrait | **4:5** | Editorial portrait, male boxing coach wrapping his hands, intense focus; shadowy combat gym, red spotlight accent. |
-| 16 | `images/trainers/coach-sara.webp` | Trainer portrait | **4:5** | Editorial portrait, female mobility/recovery coach, calm warm expression; soft warm studio light, dark background. |
+| 13 | `images/trainers/strength-coach.webp` | Trainer portrait | **4:5** | Editorial portrait, male head strength coach, arms folded, confident; dark gym backdrop, red rim light, shallow DOF. |
+| 14 | `images/trainers/fitness-trainer.webp` | Trainer portrait | **4:5** | Editorial portrait, female performance coach, athletic, mid-laugh, athletic wear; cinematic side light, dark background. |
+| 15 | `images/trainers/gym-instructor.webp` | Trainer portrait | **4:5** | Editorial portrait, male boxing/gym coach wrapping hands, intense focus; shadowy gym, red spotlight accent. |
+| 16 | `images/trainers/workout-coach.webp` | Trainer portrait | **4:5** | Editorial portrait, female mobility/fitness coach, calm warm expression; soft warm studio light, dark background. |
 | 17 | `images/community/community-training.webp` | Community band background | **16:9** | Wide authentic shot of a diverse group of members training & encouraging each other, genuine emotion, warm light through haze. **Central negative space** for the headline. |
 | 18 | `images/community/member-moment.webp` | Community accent (available) | **1:1** | Candid moment — two members fist-bumping after a hard set, real emotion, sweat, dark gym, subtle red accent. |
 

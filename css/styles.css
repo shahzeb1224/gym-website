@@ -254,8 +254,10 @@ input{font:inherit;}
 /* 9. HERO --------------------------------------------------------------- */
 .hero{
   --photo:url("../images/hero/hero-athlete-training.webp");
-  position:relative; min-height:100svh; display:flex; align-items:flex-end;
-  overflow:hidden; background:var(--black); padding-bottom:clamp(3.5rem,8vh,6rem);
+  position:relative; min-height:100svh; display:flex; align-items:center;
+  overflow:hidden; background:var(--black);
+  padding-top:calc(74px + clamp(2rem, 5vh, 4.5rem));
+  padding-bottom:clamp(4rem, 8vh, 6rem);
 }
 .hero__bg{
   position:absolute; inset:-7% 0; z-index:0; will-change:transform;
@@ -267,16 +269,16 @@ input{font:inherit;}
   background-size:cover; background-position:center; background-repeat:no-repeat;
 }
 .hero.grain::after{z-index:1;}
-.hero__inner{position:relative; z-index:2; padding-block:2rem;}
+.hero__inner{position:relative; z-index:2; width:100%; padding-block:1rem 2rem;}
 .hero .kicker{color:#d8d8dc; margin-bottom:1.4rem;}
 .hero__title{
   font-family:var(--font-display); font-weight:400; text-transform:uppercase;
-  font-size:clamp(3rem, 9.2vw, 7.2rem); line-height:.9; letter-spacing:.005em;
+  font-size:clamp(2.75rem, 8vw, 6.2rem); line-height:.92; letter-spacing:.005em;
   text-shadow:0 2px 40px rgba(0,0,0,.5);
 }
 .hero__sub{margin-top:1.6rem; max-width:52ch; color:#c9c9ce; font-size:clamp(1.02rem,1.5vw,1.25rem);}
 .hero__cta{display:flex; flex-wrap:wrap; gap:1rem; margin-top:2.3rem;}
-.hero__meta{display:flex; flex-wrap:wrap; gap:1.6rem; margin-top:2.4rem;}
+.hero__meta{display:flex; flex-wrap:wrap; gap:1.6rem; margin-top:2.4rem; margin-bottom:1.5rem;}
 .hero__meta li{
   position:relative; padding-left:1.3rem; font-size:.85rem; color:var(--text-muted);
   text-transform:uppercase; letter-spacing:.08em; font-weight:600;
